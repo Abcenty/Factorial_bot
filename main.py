@@ -13,9 +13,6 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 bot: Bot = Bot(BOT_TOKEN)
 dp: Dispatcher = Dispatcher()
 
-# Переменная, хранящая ответ бота
-ANSWER = 1
-
 
 def multiplication(current, end):
     for i in range(current, end + 1):
